@@ -58,9 +58,9 @@ namespace Wpf2
             else
             {
                 FirstName.Text = "";
-                LastName.Text = "";
-                Age.Text = "";
-                Phone.Text = "";
+            LastName.Text = "";
+            Age.Text = "";
+            Phone.Text = "";
             }
 
         }
@@ -87,6 +87,26 @@ namespace Wpf2
             LastName.Text = controller.CurrentPerson.LastName;
             Age.Text = Convert.ToString(controller.CurrentPerson.Age);
             Phone.Text = controller.CurrentPerson.PhoneNumber;
+        }
+
+        private void FirstName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void LastName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Age_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Phone_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
